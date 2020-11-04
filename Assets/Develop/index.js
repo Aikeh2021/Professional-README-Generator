@@ -54,12 +54,58 @@ inquirer.prompt([{
         message: questions[7],
         name: "emailAddress"
     },
+    {
+        type:
+        message?
+        name: "licenseType"
+    }
 ]).then((responses) => {
     console.log(responses);
     const yourReadMe = 
     `# ${response.projectTitle}
 
+    ## Description
+
+    ${response.projectDescription}
+
+    ## Table of Contents
     
+    * [Description](#description)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
+    * [License](#license)
+
+
+    ## Installation
+
+    ${response.projectInstallation}
+
+    ## Usage
+
+    ${response.projectUsage}
+
+
+    ## Contributing
+
+    ${response.projectContriubution}
+
+    ## Tests
+
+    ${response.projectTesting}
+    
+    ## Questions
+
+    ${response.Github}
+    ${response.emailAddress}
+
+    ## License
+
+    ${response.licenseType}
+
+
     `
     fs.writeFile("ProfessionalREADME.md", )
 });
