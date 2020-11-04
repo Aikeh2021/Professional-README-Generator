@@ -1,3 +1,4 @@
+console.log("Is thing on?");
 // array of questions for user
 const questions = [
 
