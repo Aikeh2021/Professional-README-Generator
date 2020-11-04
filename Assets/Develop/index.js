@@ -45,7 +45,9 @@ inquirer.prompt([
         message: questions[7],
         name: "emailAddress"
     },
-])
+]).then((responses)=> {
+    console.log(responses);
+});
 
 
 // array of licenses for user to choose from
