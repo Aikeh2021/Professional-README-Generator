@@ -4,7 +4,7 @@ const fs = require("file-system");
 
 // array of questions for user
 const questions = [
-    "What is the name/title of your project?", "What can you tell me about your project? Write a brief description (no more than 2 paragraphs)", "How would a user install your project? Write step-by-step instructions.", "How should a client properly use this product?", "How can I, another developer, contribute to this project? Please write clear and concise guidelines.", "How can I test this application? Please write clear and concise instructions.", "What is your Github username?", "What is the best email address for users to contact you with questions?"
+    "What is the name/title of your project?", "What can you tell me about your project? Write a brief description (no more than 2 paragraphs)", "How would a user install your project? Write step-by-step instructions.", "How should a client properly use this product?", "How can I, another developer, contribute to this project? Please write clear and concise guidelines.", "How can I test this application? Please write clear and concise instructions.", "What is your Github username?", "What is the best email address for users to contact you with questions?", "Which license would you like included on your README.md file?"
 ];
 // array of licenses for user to choose from
 const licenses = {
@@ -55,8 +55,8 @@ inquirer.prompt([{
         name: "emailAddress"
     },
     {
-        type:
-        message?
+        type: "list",
+        message: questions[8],
         name: "licenseType"
     }
 ]).then((responses) => {
@@ -97,9 +97,9 @@ inquirer.prompt([{
     ${response.projectTesting}
     
     ## Questions
+    
+    If you have any questions, please contact me via email at: ${response.emailAddress}. I have also included my Github username (${response.Github})in case you would like to contact me via the hosting site or view my previous work.
 
-    ${response.Github}
-    ${response.emailAddress}
 
     ## License
 
