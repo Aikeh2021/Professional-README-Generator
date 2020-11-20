@@ -1,60 +1,49 @@
-// const fs = require("fs");
-// const inquirer = require("inquirer");
-
 // function to generate markdown for README
+const generateMarkdown = (response) => {
+const readMeTemplate = `# ${response.projectTitle}
 
-  // const readMeTemplate = `# ${response.projectTitle}
+  ## Description
 
-  // ## Description
+  ${response.projectDescription}
 
-  // ${response.projectDescription}
-
-  // ## Table of Contents
+  ## Table of Contents
   
-  // * [Description](#description)
-  // * [Installation](#installation)
-  // * [Usage](#usage)
-  // * [Contributing](#contributing)
-  // * [Tests](#tests)
-  // * [Questions](#questions)
-  // * [License](#license)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [License](#license)
 
 
-  // ## Installation
+  ## Installation
 
-  // ${response.projectInstallation}
+  ${response.projectInstallation}
 
-  // ## Usage
+  ## Usage
 
-  // ${response.projectUsage}
+  ${response.projectUsage}
 
 
-  // ## Contributing
+  ## Contributing
 
-  // ${response.projectContriubution}
+  ${response.projectContriubution}
 
-  // ## Tests
+  ## Tests
 
-  // ${response.projectTesting}
+  ${response.projectTesting}
   
-  // ## Questions
+  ## Questions
   
-  // If you have any questions, please contact me via email at: ${response.emailAddress}. I have also included my Github username (${response.Github})in case you would like to contact me via the hosting site or view my previous work.
+  If you have any questions, please contact me via email at: ${response.emailAddress}. I have also included my Github username (${response.Github})in case you would like to contact me via the hosting site or view my previous work.
 
 
-  // ## License
+  ## License
+  ${licenses.response}
 
-  // ${response.licenseType}
+`;
+return readMeTemplate;
+}
 
-
-  // `;
-  // function writeToFile(fileName, data) {
-  //   fs.writeFile("generateMarkdown.md", readMeTemplate, "utf8", (err) => {
-  //     if (err) throw err;
-  //     console.log("Your response was successfully recorded. Click the generateMarkdown.md file to view or edit your prompt responses.");
-  // });
-  return readMeTemplate
-  // function to generate markdown for README
-//   function generateMarkdown(response) {}
-
-// module.exports = generateMarkdown;
+module.exports = generateMarkdown;

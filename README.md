@@ -1,8 +1,8 @@
 # Professional-README-Generator
 
 ## Description
-Have you ever wanted to bypass the tedious process of creating a Readme? Though it’s one of the easier parts of the coding process, it can be least looked forward to because of how similar each readme we create is. 
-Who wants to ty pe the same document over and over and over again, the only difference being small variations in content?
+Have you ever wanted to bypass the tedious process of creating a Readme? Though it’s one of the easier parts of the coding process, it can be the least looked forward to because of how similar each readme we create is. 
+Who wants to type the same document over and over again, the only difference being small variations in content?
 Well thanks to the Professional Readme Generator, you now have access to an application that will create the foundation for your next Readme!
 All you have to do is input the specific information you want displayed in each section of your file and voila, you have a new README.md file created for the project of your choosing!
 
