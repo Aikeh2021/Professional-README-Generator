@@ -1,8 +1,8 @@
-# Yes
+# Professional Readme Generator
 
   ## Description
 
-  yes
+  Have you ever wanted to bypass the tedious process of creating a Readme? Though it’s one of the easier parts of the coding process, it can be least looked forward to because of how similar each readme we create is. \n Who wants to ty pe the same document over and over and over again, the only difference being small variations in content? \n Well thanks to the Professional Readme Generator, you now have access to an application that will create the foundation for your next Readme! \n All you have to do is input the specific information you want displayed in each section of your file and voila, you have a new README.md file created for the project of your choosing!
 
   ## Table of Contents
   
@@ -17,46 +17,32 @@
 
   ## Installation
 
-  yes
+  lkj
 
   ## Usage
 
-  yes
+  owihjeg
 
 
   ## Contributing
 
-  yes
+  owiheg
 
   ## Tests
 
-  yes
+  woergh
   
   ## Questions
   
-  If you have any questions, please contact me via email at: yes. I have also included my Github username (yes)in case you would like to contact me via the hosting site or view my previous work.
+  If you have any questions, please contact me via email at: owsrhg. I have also included my Github username (woerigh)in case you would like to contact me via the hosting site or view my previous work.
 
 
   ## License
-  MIT License 
- Copyright © [year] [fullname] 
+  GNU AFFERO GENERAL PUBLIC LICENSE 
+ Version 3, 19 November 2007 
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/> 
 
- Permission is hereby granted, free of charge, to any person obtaining a copy 
- of this software and associated documentation files (the 'Software'), to deal 
- in the Software without restriction, including without limitation the rights 
- to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
- copies of the Software, and to permit persons to whom the Software is 
- furnished to do so, subject to the following conditions: 
-
- The above copyright notice and this permission notice shall be included in all 
- copies or substantial portions of the Software. 
-
- THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
- AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
- SOFTWARE.
+ Everyone is permitted to copy and distribute verbatim copies 
+ of this license document, but changing it is not allowed.
   
 
