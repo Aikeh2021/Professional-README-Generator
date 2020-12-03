@@ -22,7 +22,9 @@ In order to use this product correctly, complete the following steps:
 2) Git clone the SSH key into a directory of your choosing (I recommend creating a new directory and copying over the folders from this repository. You can also just create your readme in this folder and then copy the finished readme file into the project repository the readme was created for).
 3) Open Visual Studio Code. Be sure to open the terminal inside VSC as well (shortcut: control + `). In the terminal, navigate to the Develop folder.
 4) While in the Develop folder in the terminal, run the code: npm install. This will install the inquirer node to your repository.
-5) Once inquirer has finished installing, run the code: node index.js. This will present a series of questions in the terminal. Answer these questions in detail, as your answers will be sorted into various sections in a new document to create a unique Readme.
+5) Once inquirer has finished installing, run the code: node index.js. This will present a series of questions in the terminal. Answer these questions in detail, as your answers will be sorted into various sections in a new document to create a unique Readme. Do not press enter while inputting your answers. Instead use a symbol that will signify a paragraph break. If you press enter, the computer will register this as you’re wanting to move to the next prompt. Once the readme has finished populating you can manually insert paragraph breaks.
+6) After the readme has been created, you can go in and manually add the stylistic changes you would like (for example, lists, italic elements, bold elements, images, etc.).
+7) Enjoy your completed readme!
 
 
 

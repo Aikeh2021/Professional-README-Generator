@@ -18,7 +18,8 @@ const questions = [
 
 
 // Inquirer prompts the user will interact with
-     inquirer.prompt([
+const userPrompts = () => {
+   return inquirer.prompt([
     {
       type: "input",
       message: questions[0],
@@ -66,25 +67,32 @@ const questions = [
       choices: ["gnuAGPLv3", "gnuGPLv3", "unlicense", "mitLicense"]
     },
   ])
-  .then((response) => {
-    console.log(response);
-    let generatedMarkdown = generateMarkdown(response);
-    fs.writeFileSync("generatedREADME.md", generatedMarkdown, "utf8", (err) => {
-        if (err) throw err;
-        console.log("Your response was successfully recorded. Click the generateMarkdown.md file to view or edit your prompt responses.");
-  })
-
-// function to write README file
-
+};
+  // function to write README file
+  // .then((response) => {
+  //   console.log(response);
+  //   let generatedMarkdown = generateMarkdown(response);
+  //   fs.writeFileSync("generatedREADME.md", generatedMarkdown, "utf8", (err) => {
+  //       if (err) throw err;
+  //       console.log("Your response was successfully recorded. Click the generateMarkdown.md file to view or edit your prompt responses.");
+  // })
 
 // function to initialize program
-function init() {
-
-}
+const init = async function(){
+  console.log(response);
+  try{
+    const response = await userPrompts();
+    let generatedMarkdown = generateMarkdown(response);
+      // function to write README file
+    await fs.writeFileAsync("generatedREADME.md", generatedMarkdown, "utf8");
+    console.log("Your response was successfully recorded. Click the generateMarkdown.md file to view or edit your prompt responses.");
+  } catch (err){
+    console.log(err);
+  }
+};
 
 // function call to initialize program
 init();
 
 
 
-});
