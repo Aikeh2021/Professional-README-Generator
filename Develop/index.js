@@ -1,4 +1,4 @@
-console.log("Is thing on?");
+// console.log("Is thing on?");
 const inquirer = require("inquirer");
 const fs = require("fs");
 let generateMarkdown = require("./utils/generateMarkdown");
@@ -71,7 +71,7 @@ const userPrompts = () => {
 
 // function to initialize program
 const init = async function(){
-  console.log("hello.");
+  // console.log("hello.");
   try{
     const response = await userPrompts();
     let generatedMarkdown = generateMarkdown(response);
