@@ -30,7 +30,7 @@ In order to use this product correctly, complete the following steps:
 
 ## Usage
 
-To view a video on how to properly use this application, [click here]().
+To view a video on how to properly use this application, [click here](https://drive.google.com/file/d/1KXEfGCF6FsE8tnVL261FhVdcBwuUJgBB/view).
 
 After you have followed the installation steps to create your Readme, be sure to make edits to the generated file. For instance, in the License section of the file, there may be a space to input your name (‘INSERT NAME’) or the year the license was used (e.g. ‘INSERT YEAR’).
 

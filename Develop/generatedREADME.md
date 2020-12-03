@@ -1,8 +1,8 @@
-# a
+# Example
 
   ## Description
 
-  a
+  Thanks for using my project!
 
   ## Table of Contents
   
@@ -17,24 +17,24 @@
 
   ## Installation
 
-  a
+  1. Open the project. 2. Make your reamdme. 3. Publish your readme.
 
   ## Usage
 
-  a
+  You should use this product in a proper way.
 
 
   ## Contributing
 
-  a
+  You can contribute anyway you would like.
 
   ## Tests
 
-  a
+  You can test this application any way you would like.
   
   ## Questions
   
-  If you have any questions, please contact me via email at: a. I have also included my Github username (a)in case you would like to contact me via the hosting site or view my previous work.
+  If you have any questions, please contact me via email at: ashley.ikeh@hotmail.com. I have also included my Github username (Aikeh2021)in case you would like to contact me via the hosting site or view my previous work.
 
 
   ## License
