@@ -29,6 +29,9 @@ In order to use this product correctly, complete the following steps:
 
 
 ## Usage
+
+To view a video on how to properly use this application, [click here]().
+
 After you have followed the installation steps to create your Readme, be sure to make edits to the generated file. For instance, in the License section of the file, there may be a space to input your name (‘INSERT NAME’) or the year the license was used (e.g. ‘INSERT YEAR’).
 
 If you do not need a section, you can remove it from the physical document. For example, this particular Readme Does not need a Test section because there has not been a way to test this specific application. Though I will be leaving this section on the readme, I could also have manually removed this line from the readme file product, prior to pushing my newly created readme to Github.
