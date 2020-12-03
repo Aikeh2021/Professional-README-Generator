@@ -77,19 +77,40 @@ const userPrompts = () => {
   //       console.log("Your response was successfully recorded. Click the generateMarkdown.md file to view or edit your prompt responses.");
   // })
 
+
+// // function to initialize program
+// const init = async function(){
+//   console.log(response);
+//   try{
+//     const response = await userPrompts();
+//     let generatedMarkdown = generateMarkdown(response);
+//       // function to write README file
+//     await fs.writeFileAsync("generatedREADME.md", generatedMarkdown, "utf8");
+//     console.log("Your response was successfully recorded. Click the generateMarkdown.md file to view or edit your prompt responses.");
+//   } catch (err){
+//     console.log(err);
+//   }
+// };
+
+// // function call to initialize program
+// init();
+
+
+
 // function to initialize program
 const init = async function(){
-  console.log(response);
+  console.log("hello.");
   try{
     const response = await userPrompts();
     let generatedMarkdown = generateMarkdown(response);
       // function to write README file
-    await fs.writeFileAsync("generatedREADME.md", generatedMarkdown, "utf8");
-    console.log("Your response was successfully recorded. Click the generateMarkdown.md file to view or edit your prompt responses.");
-  } catch (err){
-    console.log(err);
+    fs.writeFile("generatedREADME.md", generatedMarkdown, "utf8",(err)=> {
+      try {console.log("Your response was successfully recorded. Click the generateMarkdown.md file to view or edit your prompt responses.");
+    } catch (err){
+      console.log(err);
+    }
   }
-};
+  ;
 
 // function call to initialize program
 init();
