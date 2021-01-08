@@ -51,7 +51,7 @@ If you have any questions, please contact me via email at: ashley.ikeh21@gmail.c
 
 MIT License
 
-Copyright (c) 2020, Ashley Ikeh
+Copyright (c) 2020, [Ashley Ikeh](https://github.com/Aikeh2021)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
